@@ -3,6 +3,18 @@
 <head>
 <title>HTML Tutorial Exercises</title>
 <style>
+	.rosered {
+		position: relative;
+		animation-name: roses;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+	}
+	.violetblue {
+		position: relative;
+		animation-name: violets;
+		animation-duration: 4s;
+		animation-iteration-count: infinite;
+	}
 	p {border: 1px solid blue;}
 	#special {
 		color:gray;
@@ -12,6 +24,10 @@
 		font-size:20px;
 		color:gray;
 		background-color:lightblue;
+	}
+	@keyframes roses {
+		0% {color: #FF007F;}
+		100% {color: red;}
 	}
 </style>
 </head>
@@ -47,7 +63,7 @@
 <!-- HTML Exercise 12 -->
 <!-- Had to pay homage to Red vs Blue by Rooster Teeth -->
 <pre>
-  <span style="color:#FF007F">Roses</span> are <span style="color:red">red</span>
+  <span id="rosered">Roses are red</span>
 
   And <span style="color:#7F00FF">violets</span> are <span style="color:blue">blue</span>.
 
