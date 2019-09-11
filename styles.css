@@ -45,6 +45,9 @@
 #q4, #q4 img {
 	width: 50%;
 }
+#q4 img {
+	clear: both;
+}
 /*Q2-5*/
 #q5 {
 	/**/
