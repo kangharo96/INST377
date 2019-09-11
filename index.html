@@ -4,7 +4,7 @@
 <title>HTML Tutorial Exercises</title>
 <style>
 	#rosesred {
-		animation: roses 4s linear infinite;
+		animation: roses 4s linear infinite alternate;
 		display: inline;
 	}
 	@keyframes roses {
@@ -12,12 +12,20 @@
 		to {background-color: red;}
 	}
 	#violetsblue {
-		animation: violets 4s linear infinite;
+		animation: violets 4s linear infinite alternate;
 		display: inline;
 	}
 	@keyframes violets {
 		from {background-color: #7f00ff;}
 		to {background-color: blue;}
+	}
+	#strolling {
+		animation: stroll 4s ease-in-out 4s;
+		display: block;
+	}
+	@keyframes stroll {
+		from {left: 0px;}
+		to {left: 30px;}
 	}
 </style>
 </head>
@@ -52,14 +60,14 @@
 
 <!-- HTML Exercise 12 -->
 <!-- Had to pay homage to Red vs Blue by Rooster Teeth -->
-<pre>
+<pre style="text-align:center">
   <span id="rosesred">Roses are red</span>
 
   <span id="violetsblue">And violets are blue.</span>
 
-  One day we'll cruise down
+  <div id="strolling">One day we'll cruise down
 
-  Blood Gulch Avenue.
+  Blood Gulch Avenue.</div>
 </pre>
 
 <!-- HTML Exercise 13 -->
