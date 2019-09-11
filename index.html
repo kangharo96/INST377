@@ -19,13 +19,15 @@
 		from {background-color: #7f00ff;}
 		to {background-color: blue;}
 	}
-	#strolling {
-		animation: stroll 4s ease-in-out infinite;
-		display: inline;
+	div {
+		animation: stroll 4s infinite;
 	}
 	@keyframes stroll {
 		from {left: 0px;}
 		to {left: 300px;}
+	}
+	#div1 {
+		animation-timing-function: ease-in-out;
 	}
 </style>
 </head>
@@ -40,9 +42,9 @@
 
   <span id="violetsblue">And violets are blue.</span>
 
-  <span id="strolling">One day we'll cruise down</span>
+  <div id="div1">One day we'll cruise down
 
-  Blood Gulch Avenue.
+  Blood Gulch Avenue.</div>
 </pre>
 
 <!-- HTML Exercise 40 -->
