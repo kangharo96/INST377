@@ -33,9 +33,9 @@
 }
 /*Q2-2*/
 #q2 {
-	border: 1em solid black;
+	border: 5px solid black;
 	width: 60%;
-	text-align: center;
+	margin: auto;
 }
 /*Q2-3*/
 #q2 div {
