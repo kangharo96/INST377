@@ -31,24 +31,28 @@
 	/*text color of snow*/
 	color:rgb(255,250,250);
 }
+
 /*Q2-2*/
 #q2 {
 	width: 60%;
 	margin: auto;
 }
+
 /*Q2-3*/
 #q2 div {
 	border: 1px solid black;
 	display: inline-block;
 }
+
 /*Q2-4*/
 #q4, #q4 img {
 	width: 50%;
 }
-#q4 img {
-	clear: both;
-}
+
 /*Q2-5*/
-#q5 {
-	/**/
+#q5 table {
+	border-collapse: collapse;
+}
+#q5 table {
+	border: 1px solid black;
 }
