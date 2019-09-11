@@ -4,11 +4,19 @@
 <title>HTML Tutorial Exercises</title>
 <style>
 	#rosesred {
-		animation: roses 4s linear infinite alternate;
+		animation: roses 4s linear infinite;
 		display: inline;
 	}
 	@keyframes roses {
-		from {background-color: red;}
+		from {background-color: #ff007f;}
+		to {background-color: red;}
+	}
+	#violetsblue {
+		animation: violets 4s linear infinite;
+		display: inline;
+	}
+	@keyframes violets {
+		from {background-color: #7f00ff;}
 		to {background-color: blue;}
 	}
 </style>
@@ -47,7 +55,7 @@
 <pre>
   <span id="rosesred">Roses are red</span>
 
-  And violets are blue.
+  <span id="violetsblue">And violets are blue.</span>
 
   One day we'll cruise down
 
