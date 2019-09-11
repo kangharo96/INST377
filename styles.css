@@ -33,6 +33,7 @@
 }
 /*Q2-2*/
 #q2 {
+	border: 1em solid black;
 	width: 60%;
 	text-align: center;
 }
