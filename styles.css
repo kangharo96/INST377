@@ -23,3 +23,11 @@
 	from {left: 0px;}
 	to {left: 300px;}
 }
+
+/*Q2-1*/
+#topheader {
+	/*background color of charcoal or dark gray*/
+	background-color:#36454f;
+	/*text color of snow*/
+	color:rgb(255,250,250);
+}
