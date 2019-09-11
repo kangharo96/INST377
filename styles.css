@@ -40,15 +40,17 @@
 
 /*Q2-3*/
 #q2 div {
-	width: 50%;
 	position: relative;
 	display: inline-block;
 }
 
 /*Q2-4*/
-#q4 img {
+#q4, #q4 img {
 	width: 50%;
 	float: left;
+}
+#q4 {
+	padding: 0px 0px 0px 5px;
 }
 
 /*Q2-5*/
