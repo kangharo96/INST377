@@ -71,7 +71,7 @@
 }
 
 /*Q2-3*/
-#q2 div {display: inline-block;}
+#q2 > div {display: inline-block;}
 
 /*Q2-4*/
 #q4, #q4 img {
