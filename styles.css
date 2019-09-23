@@ -1,34 +1,7 @@
-[class*="col-"] {width: 100%;}
-/*For small to medium devices*/
-@media only screen and (min-width: 768px) {
-	.col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-}
-/*For large devices and up*/
-@media only screen and (min-width: 992px) {
-	.col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
-}
+/*For devices larger than 400px*/
+@media (min-width: 400px) {}
+/*For devices larger than 550px*/
+@media (min-width: 550px) {}
 
 #rosesred {
 	animation: roses 4s linear infinite alternate;
@@ -53,43 +26,49 @@
 }
 @keyframes stroll {
 	from {left: 0px;}
-	to {left: 300px;}
+	to {left: 100px;}
 }
 
 /*Q2-1*/
 #topheader {
 	/*background color of charcoal or dark gray*/
-	background-color:#36454f;
+	background-color: #36454f;
 	/*text color of snow*/
-	color:rgb(255,250,250);
+	color: #fffafa;
 }
 
 /*Q2-2*/
-#q2 {
-	width: 60%;
+#container {
+	width: 100%;
+	max-width: 60%;
 	margin: auto;
+	display: flex;
 }
 
 /*Q2-3*/
-#q2 > div {display: inline-block;}
+#container > div {justify-content: center;}
 
 /*Q2-4*/
 #q4, #q4 img {
-	width: 45%;
-	float: left;
+	width: 48%;
 	padding: 0px 5px 0px 0px;
 }
 
 /*Q2-5*/
 #q5 table {border-collapse: collapse;}
-#q5 table, th, td {border: 1px solid black;}
-#q5 {
-	width: 50%;
+#q5 table, th, td {
+	border: 1px solid black;
 	font-family: Helvetica, Arial, sans-serif;
 }
+#q5 {width: 50%;}
 #q5 th {
 	text-align: left;
-	background-color:#36454f;
-	color:rgb(255,250,250);
+	background-color: #36454f;
+	color: #fffafa;
 }
-#q5 table tr:last-child {text-align: center;}
+#q5 ul {
+	list-style: circle inside;
+	padding-left: 0;
+	margin-top: 0;
+}
+#q5 li {margin-bottom: 1rem;}
