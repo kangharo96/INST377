@@ -39,28 +39,35 @@
 
 /*Q2-2*/
 #container {
-	width: 100%;
-	max-width: 60%;
+	width: 60%;
 	margin: auto;
 	display: flex;
 }
 
 /*Q2-3*/
-#container > div {justify-content: center;}
+/*#container > div {display: flex;}*/
 
 /*Q2-4*/
-#q4, #q4 img {
-	width: 48%;
-	padding: 0px 5px 0px 0px;
+#q4 {
+	display: flex;
+	flex-direction: column;
 }
+#q4 img {
+	padding: 0px 5px 0px 0px;
+	align-self: center;
+}
+#q4, #q4 img {width: 50%;}
 
 /*Q2-5*/
-#q5 table {border-collapse: collapse;}
+/*#q5 {width: 100%;}*/
+#q5 table {
+	border-collapse: collapse;
+	width: 100%;
+}
 #q5 table, th, td {
 	border: 1px solid black;
 	font-family: Helvetica, Arial, sans-serif;
 }
-#q5 {width: 50%;}
 #q5 th {
 	text-align: left;
 	background-color: #36454f;
