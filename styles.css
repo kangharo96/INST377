@@ -41,37 +41,41 @@
 #container {
 	width: 60%;
 	margin: auto;
+	/*Q2-3*/
 	display: flex;
+	flex-direction: column;
 }
-
-/*Q2-3*/
-/*#container > div {display: flex;}*/
 
 /*Q2-4*/
 #q4 {
 	display: flex;
 	flex-direction: column;
 }
-#q4 img {
-	padding: 0px 5px 0px 0px;
-	align-self: center;
-}
-#q4, #q4 img {width: 50%;}
+#q4 img {padding: 0px 5px 0px 0px;}
+#q4 img, p {align-self: center;}
 
 /*Q2-5*/
-/*#q5 {width: 100%;}*/
-#q5 table {
-	border-collapse: collapse;
-	width: 100%;
+#q5 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
-#q5 table, th, td {
+#q5 .topping {
+	padding: 0px 2px;
+	margin: 1px;
 	border: 1px solid black;
-	font-family: Helvetica, Arial, sans-serif;
+	height: 200px;
+	width: 200px;
 }
-#q5 th {
-	text-align: left;
-	background-color: #36454f;
+#q5 h3 {
+	text-align: center;
+	background: #36454f;
 	color: #fffafa;
+}
+#q5 h3, h4 {
+	border-bottom: 1px solid black;
+	margin: 0px;
 }
 #q5 ul {
 	list-style: circle inside;
