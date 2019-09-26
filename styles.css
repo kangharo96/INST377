@@ -19,7 +19,7 @@
 	from {background-color: #7f00ff;}
 	to {background-color: blue;}
 }
-#strolling {
+.strolling {
 	position: relative;
 	animation: stroll 4s infinite;
 	animation-timing-function: ease-in-out;
@@ -29,10 +29,15 @@
 	to {left: 100px;}
 }
 
-/*Q2-1*/
-#topheader {
+body {
 	/*background color of charcoal or dark gray*/
 	background-color: #36454f;
+	font-family: Arial, sans-serif;
+}
+
+/*Q2-1*/
+#topheader {
+	background-color: #16252f;
 	/*text color of snow*/
 	color: #fffafa;
 }
@@ -73,10 +78,11 @@
 	border: 1px solid black;
 	height: 200px;
 	width: 200px;
+	background-color: white;
 }
 #q5 h3 {
 	text-align: center;
-	background: #36454f;
+	background: #16252f;
 	color: #fffafa;
 }
 #q5 h3, h4 {
@@ -89,3 +95,5 @@
 	margin-top: 0;
 }
 #q5 li {margin-bottom: 1rem;}
+
+pre span {background: white;}
