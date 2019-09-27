@@ -96,4 +96,7 @@ body {
 }
 #q5 li {margin-bottom: 1rem;}
 
-pre span {background: white;}
+pre span {
+	padding: 0px 2px;
+	background: white;
+}
